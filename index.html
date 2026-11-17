@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezeptor - Impressum & Datenschutz</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+        h1, h2 { border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Impressum</h1>
+    <p><strong>Angaben gemäß § 5 TMG:</strong><br>
+    <img src="contact-info.png" alt="Kontaktinformationen des Entwicklers" style="max-width: 100%; height: auto; margin-top: 8px; display: block;"></p>
+    <p><strong>Kontakt:</strong><br>
+    E-Mail: rezeptor.info@gmail.com</p>
+
+    <h1>Datenschutzerklärung für die App "Rezeptor"</h1>
+    <p>Stand: November 2026</p>
+
+    <h2>1. Grundsatz der lokalen Datenspeicherung</h2>
+    <p>Die App "Rezeptor" ist nach dem Prinzip der Datensparsamkeit ("Privacy by Design") konzipiert. Sämtliche von Ihnen eingegebenen Vorräte, Rezepte und Finanzdaten (WG-Kostenaufteilung) werden ausschließlich lokal in einer Datenbank auf Ihrem Endgerät gespeichert. Es findet keine Synchronisation mit unseren Servern statt und es werden keine Benutzerkonten angelegt.</p>
+
+    <h2>2. Kameranutzung und lokale Texterkennung (OCR)</h2>
+    <p>Wenn Sie die Funktion zum Scannen von Kassenbons nutzen, greift die App auf die Kamera Ihres Geräts zu. Die Bildverarbeitung und die erste Texterkennung (OCR via Google ML Kit) erfolgen vollständig lokal auf Ihrem Gerät. Es werden keine Fotos oder Bilddateien ins Internet übertragen oder gespeichert.</p>
+
+    <h2>3. Optionale KI-gestützte Datenbereinigung</h2>
+    <p>Um die unstrukturierten Textdaten eines Kassenbons in verwertbare Artikel (Kategorien wie "Eier" oder "Olivenöl") und Preise zu übersetzen, bietet die App eine KI-gestützte Bereinigung an. Diese Funktion erfordert eine Internetverbindung.</p>
+    <ul>
+        <li><strong>Nutzung der Standard-Schnittstelle:</strong> Wenn Sie diese Funktion nutzen, wird der reine erkannte Text des Kassenbons an einen von uns betriebenen Proxy-Server (Cloudflare Workers, Cloudflare, Inc.) gesendet, welcher die Anfrage aus Sicherheitsgründen limitiert und an die Gemini API (Google Ireland Limited / Google LLC) weiterleitet. Die Daten werden ausschließlich für den Moment der Verarbeitung übertragen und von uns nicht gespeichert.</li>
+        <li><strong>Nutzung eines eigenen API-Keys (BYOK):</strong> Sofern Sie in den Einstellungen einen eigenen Google Gemini API-Key hinterlegen, kommuniziert die App direkt mit den Servern von Google. Die Verarbeitung unterliegt in diesem Fall den Datenschutzbestimmungen Ihres eigenen Google-Kontos.</li>
+    </ul>
+
+    <h2>4. Rechte der Nutzer</h2>
+    <p>Da wir keine personenbezogenen Daten auf eigenen Servern speichern, können wir Ihnen keine Auskünfte über gespeicherte Daten erteilen oder Löschungen vornehmen, da diese ausschließlich auf Ihrem eigenen Gerät liegen. Sie können alle Daten jederzeit selbst löschen, indem Sie die App deinstallieren oder die App-Daten in den Android-Einstellungen löschen.</p>
+</body>
+</html>
